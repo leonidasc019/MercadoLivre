@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#topo {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.fieldtop {
+  width: 100%;
+  height: 10.5%;
+  background-color: rgb(255, 217, 0);
+}
+
+.slidefotos {
+  width: 100%;
+  height: 36.8%;
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fotosfield {
+  width: 85%;
+  height: 100%;
+  background-color: aqua;
+}
+
+.fieldpagamento {
+  width: 100%;
+  height: 15%;
+  background-color: rgb(228, 228, 228);
+}
+
+/*-------------------  FONTS DO SITE ----------------------------*/
+@font-face {
+  font-family: "TitilliumWeb";
+  src: url("/fonts/Titillium_Web/TitilliumWeb-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "TitilliumWebItalic";
+  src: url("/fonts/Titillium_Web/TitilliumWeb-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "poppins-bold";
+  src: url("/fonts/poppins/poppins-bold-webfont.ttf") format("truetype");
+}
+@font-face {
+  font-family: "lora-regular";
+  src: url("/fonts/lora/lora-regular-webfont.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Bungee";
+  src: url("/fonts/Bungee/Bungee-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ABeeZee";
+  src: url("/fonts/ABeeZee/ABeeZee-Regular.ttf") format("truetype");
+}/*# sourceMappingURL=css.css.map */
