@@ -17,12 +17,18 @@ body {
   width: 100%;
   height: 10.5%;
   background-color: rgb(255, 217, 0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .searchfield {
   width: 100%;
   height: 50%;
-  background-color: gold;
+  background-color: rgb(255, 217, 0);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .accountfield {
@@ -144,8 +150,31 @@ body {
   margin-left: -400%;
 }
 
-#radio1:checked ~ .manual-btn .auto-btn1 {
+.whitebackground {
   background-color: white;
+}
+
+.logoML {
+  width: 10%;
+  height: 100%;
+}
+
+.logo {
+  background-image: url(/imgs/i579310.png);
+  width: 134px;
+  height: 34px;
+  background-size: cover;
+}
+
+form button {
+  cursor: pointer;
+  background: none;
+  color: #fff;
+}
+
+form input {
+  width: 100%;
+  height: 100%;
 }
 
 /*-------------------  FONTS DO SITE ----------------------------*/
