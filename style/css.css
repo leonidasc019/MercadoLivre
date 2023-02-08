@@ -157,6 +157,10 @@ body {
 .logoML {
   width: 10%;
   height: 100%;
+  position: relative;
+  right: 11%;
+  margin: 0.4%;
+  display: flex;
 }
 
 .logo {
@@ -166,15 +170,20 @@ body {
   background-size: cover;
 }
 
-form button {
-  cursor: pointer;
-  background: none;
-  color: #fff;
+.searchContainer {
+  width: 30%;
+  height: 80%;
+  background-color: #fff;
+  position: relative;
+  margin: 0.2%;
+  right: 11.6%;
+  border-radius: 3px;
 }
 
-form input {
-  width: 100%;
+.searchContainer form {
+  display: flex;
   height: 100%;
+  width: 100%;
 }
 
 /*-------------------  FONTS DO SITE ----------------------------*/
