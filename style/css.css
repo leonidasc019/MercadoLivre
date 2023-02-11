@@ -291,9 +291,54 @@ input {
 .account {
   width: 20%;
   height: 90%;
-  background-color: #666;
   position: relative;
   left: 4.9%;
+  display: flex;
+  align-items: center;
+}
+
+.photoaccount {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+.photoc {
+  background-image: url(/imgs/logo\ conta.jpg);
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.accountdetalhes {
+  display: flex;
+  align-items: center;
+  width: 19%;
+  height: 100%;
+}
+
+.accountdetalhes ul {
+  list-style: none;
+  display: inline-flex;
+  font-family: "Proxima Nova", -apple-system, Roboto, Arial, sans-serif;
+  color: rgba(51, 51, 51, 0.6);
+  cursor: pointer;
+  font-size: 14px;
+  position: relative;
+  right: 32px;
+  gap: 15px;
+}
+
+.accountdetalhes li {
+  display: flex;
+  align-items: center;
+}
+
+.accountdetalhes i {
+  position: relative;
+  left: 4px;
 }
 
 /*-------------------  FONTS DO SITE ----------------------------*/
@@ -320,4 +365,9 @@ input {
 @font-face {
   font-family: "ABeeZee";
   src: url("/fonts/ABeeZee/ABeeZee-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "navigation";
+  src: url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/navigation.eot");
+  src: url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/navigation.eot#iefix") format("embedded-opentype"), url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/navigation.woff2") format("woff2"), url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/navigation.woff") format("woff"), url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/navigation.ttf") format("truetype"), url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/navigation.svg#navigation") format("svg");
 }/*# sourceMappingURL=css.css.map */
