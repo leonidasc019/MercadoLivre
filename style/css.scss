@@ -6,12 +6,13 @@ body {
     justify-content: center;
 }
 
-#topo{
+#topo {
     width: 100%;
     height: 100%;
     background-color: black;
 }
-.fieldtop{
+
+.fieldtop {
     width: 100%;
     height: 10.5%;
     background-color: #ffdb15;
@@ -19,24 +20,25 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
-.searchfield{
+
+.searchfield {
     width: 100%;
     height: 50%;
     background-color: #ffdb15;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
 
-.accountfield{
+.accountfield {
     display: flex;
     width: 100%;
     height: 50%;
     background-color: rgb(255, 217, 0);
     justify-content: center;
 }
-.slidefotos{
+
+.slidefotos {
     width: 100%;
     height: 37.3%;
     background-color: rgb(228, 228, 228);
@@ -45,23 +47,22 @@ body {
     justify-content: center;
 }
 
-.fotosfield{
+.fotosfield {
     width: 80%;
     height: 100%;
     overflow: hidden;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
-.fieldpagamento{
+.fieldpagamento {
     width: 100%;
     height: 14%;
     background-color: rgb(228, 228, 228);
 }
 
-.recomendações{
+.recomendações {
     width: 100%;
     height: 38.8%;
     background-color: rgb(228, 228, 228);
@@ -71,42 +72,46 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.cardsfild{
+.cardsfild {
     width: 60%;
     height: 86%;
     background-color: brown;
 }
-.recomendações h2{
+
+.recomendações h2 {
     font-size: 26px;
     font-weight: 300;
     margin: 0 0 0 8px;
     color: #666;
     width: 60%;
     position: relative;
-
 }
-.fotosfield input{
+
+.fotosfield input {
     display: none;
 }
+
 .slides {
     width: 100%;
     height: 100%;
     position: relative;
     transition: 0.2s;
 }
-.slides img{
+
+.slides img {
     width: 100%;
     height: 100%;
-
 }
-.manual-navigation{
+
+.manual-navigation {
     position: absolute;
     width: auto;
     display: flex;
     justify-content: center;
     margin-top: 17%;
 }
-.manual-btn{
+
+.manual-btn {
     border: 2px solid #fff;
     padding: 2px;
     border-radius: 10px;
@@ -114,50 +119,58 @@ body {
     transition: 1s;
 }
 
-.manual-btn:not(:last-child)
-{
+.manual-btn:not(:last-child) {
     margin-right: 5px;
 }
-.manual-btn{
+
+.manual-btn {
     background-color: black;
 }
-.manual-btn:hover{
+
+.manual-btn:hover {
     background-color: white;
 }
 
-#radio1:checked ~ .first{
+#radio1:checked~.first {
     margin-left: 0;
 }
-#radio2:checked ~ .first{
+
+#radio2:checked~.first {
     margin-left: -100%;
 }
-#radio3:checked ~ .first{
+
+#radio3:checked~.first {
     margin-left: -200%;
 }
-#radio4:checked ~ .first{
+
+#radio4:checked~.first {
     margin-left: -300%;
 }
-#radio5:checked ~ .first{
+
+#radio5:checked~.first {
     margin-left: -400%;
 }
 
-.whitebackground{
+.whitebackground {
     background-color: white;
 }
-.logoML{
+
+.logoML {
     width: 10%;
     height: 100%;
     position: relative;
     margin: 0.4%;
     display: flex;
 }
-.logo{
+
+.logo {
     background-image: url(/imgs/i579310.png);
     width: 134px;
     height: 34px;
     background-size: cover;
 }
-.searchContainer{
+
+.searchContainer {
     width: 31.5%;
     height: 80%;
     background-color: #fff;
@@ -166,13 +179,14 @@ body {
     right: 0.6%;
     clear: both;
 }
+
 input {
     display: flex;
     height: 100%;
     width: 100%;
 }
 
-.search{
+.search {
     background-image: url(/imgs/lupa.png);
     background-repeat: no-repeat;
     padding-left: 5px;
@@ -181,10 +195,9 @@ input {
     left: 94%;
     top: 17%;
     position: absolute;
-
 }
 
-.patrocinio{
+.patrocinio {
     background-image: url(/imgs/patrocinio.png);
     position: relative;
     background-size: cover;
@@ -192,7 +205,8 @@ input {
     height: 45px;
     left: 1%;
 }
-.entrega{
+
+.entrega {
     display: flex;
     justify-content: center;
     width: 8%;
@@ -201,12 +215,13 @@ input {
     right: 2%;
     cursor: pointer;
 }
-.entrega:hover{
+
+.entrega:hover {
     border: 1px groove #00000027;
     border-radius: 4px;
-    
 }
-.img-local{
+
+.img-local {
     width: 20%;
     height: 90%;
     background-image: url(/imgs/locanovo.png);
@@ -214,59 +229,67 @@ input {
     background-repeat: no-repeat;
     position: relative;
     top: 7px;
+    right: 8px;
 }
-.info-endereco{
-    width: 90%;
-    height: 90%;
+
+.info-endereco {
+    width: 150%;
+    height: 150%;
     margin: 2px;
     position: relative;
-    left: 2px;
+    right: 5px;
     bottom: 5px;
     cursor: pointer;
 }
 
-.info-endereco h3{
-    font-family: "Proxima Nova",-apple-system,Roboto,Arial,sans-serif;
+.info-endereco h3 {
+    font-family: "Proxima Nova", -apple-system, Roboto, Arial, sans-serif;
     position: relative;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: 10px;
-    color: rgba(0,0,0,.5);
+    font-size: 14px;
+    color: rgba(0, 0, 0, .5);
     line-height: 10px;
     top: 2px;
 }
-.info-endereco h2{
-    font-family: "Proxima Nova",-apple-system,Roboto,Arial,sans-serif;
+
+.info-endereco h2 {
+    font-family: "Proxima Nova", -apple-system, Roboto, Arial, sans-serif;
     position: relative;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: 12px;
-    color: rgba(0,0,0,.5);
-    line-height: 10px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .5);
+    line-height: 16px;
     bottom: 2px;
 }
-.menu-top{
+
+.menu-top {
     display: flex;
     flex-wrap: wrap;
     width: 29%;
-    height: 90%;
+    height: 100%;
     position: relative;
-    right: 2.7%;
+    right: 0.5%;
+    top: 8%;
 }
-.menu-top ul{
+
+.menu-top ul {
     list-style: none;
     display: inline-flex;
-    font-family: "Proxima Nova",-apple-system,Roboto,Arial,sans-serif;
-    color:rgba(51,51,51,.6);
+    font-family: "Proxima Nova", -apple-system, Roboto, Arial, sans-serif;
+    color: rgba(51, 51, 51, .6);
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
 }
-.menu-top li{
-    padding-right: 25px;
+
+.menu-top li {
+    padding-right: 20px;
     line-height: 14px;
 }
-.account{
+
+.account {
     width: 20%;
     height: 90%;
     position: relative;
@@ -274,45 +297,60 @@ input {
     display: flex;
     align-items: center;
 }
-.photoaccount{
+
+.photoaccount {
     width: 25px;
     height: 25px;
     position: relative;
     cursor: pointer;
 }
-.photoc{
+
+.photoc {
     background-image: url(/imgs/logo\ conta.jpg);
     width: 25px;
     height: 25px;
     background-size: cover;
     border-radius: 20px;
 }
-.accountdetalhes{
+
+.accountdetalhes {
     display: flex;
     align-items: center;
     width: 19%;
     height: 100%;
 }
-.accountdetalhes ul{
+
+.accountdetalhes ul {
     list-style: none;
     display: inline-flex;
-    font-family: "Proxima Nova",-apple-system,Roboto,Arial,sans-serif;
-    color:rgba(51,51,51,.6);
+    font-family: "Proxima Nova", -apple-system, Roboto, Arial, sans-serif;
+    color: rgba(51, 51, 51, .6);
     cursor: pointer;
     font-size: 14px;
     position: relative;
     right: 32px;
     gap: 15px;
 }
-.accountdetalhes li{
+
+.accountdetalhes li {
     display: flex;
     align-items: center;
 }
-.accountdetalhes i{
+
+.accountdetalhes i {
     position: relative;
     left: 4px;
 }
+
+.fieldpagamento {
+    background-color: #ffdb15;
+    width: 100%;
+    height: 15%;
+}
+
+
 /*-------------------  FONTS DO SITE ----------------------------*/
+
 @font-face {
     font-family: "TitilliumWeb";
     src: url("/fonts/Titillium_Web/TitilliumWeb-Bold.ttf") format("truetype");
@@ -342,8 +380,9 @@ input {
     font-family: "ABeeZee";
     src: url("/fonts/ABeeZee/ABeeZee-Regular.ttf") format("truetype");
 }
+
 @font-face {
     font-family: "navigation";
     src: url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/navigation.eot");
-    src: url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/navigation.eot#iefix") format("embedded-opentype"),url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/navigation.woff2") format("woff2"),url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/navigation.woff") format("woff"),url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/navigation.ttf") format("truetype"),url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/navigation.svg#navigation") format("svg");
+    src: url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/navigation.eot#iefix") format("embedded-opentype"), url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/navigation.woff2") format("woff2"), url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/navigation.woff") format("woff"), url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/navigation.ttf") format("truetype"), url("https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/navigation.svg#navigation") format("svg");
 }
